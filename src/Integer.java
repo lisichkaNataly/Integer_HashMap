@@ -11,7 +11,7 @@ public class Integer {
         } else {
             int valueFromMap = map.get(key);
             if (valueFromMap == value) {
-                throw new IllegalArgumentException("значения совпадают");
+                throw new IllegalArgumentException("Внимание! Значения совпадают");
             } else {
                 map.put(key, valueFromMap + value);
             }
